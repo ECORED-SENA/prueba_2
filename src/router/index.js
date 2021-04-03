@@ -42,6 +42,14 @@ const router = new VueRouter({
               /* webpackChunkName: "actividad" */ '../views/curso/Tema3.vue'
             ),
         },
+        {
+          path: 'tema4',
+          name: 'tema4',
+          component: () =>
+            import(
+              /* webpackChunkName: "actividad" */ '../views/curso/Tema4.vue'
+            ),
+        },
       ],
     },
     {
