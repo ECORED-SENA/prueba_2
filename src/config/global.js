@@ -141,6 +141,27 @@ export const menuPrincipal = {
         },
       ],
     },
+    {
+      nombreRuta: 'tema6',
+      icono: 'far fa-file-alt',
+      numero: '6',
+      titulo: 'Negociación.',
+      desarrolloContenidos: true,
+      subMenu: [
+        {
+          icono: 'far fa-file-alt',
+          numero: '5.1',
+          titulo: 'Tipos',
+          hash: 't_5_1',
+        },
+        {
+          icono: 'far fa-file-alt',
+          numero: '5.2',
+          titulo: 'Planes',
+          hash: 't_5_2',
+        },
+      ],
+    },
   ],
   subMenu: [
     {
