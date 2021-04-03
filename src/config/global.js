@@ -106,6 +106,18 @@ export const menuPrincipal = {
           titulo: 'Funciones',
           hash: 't_4_1',
         },
+        {
+          icono: 'far fa-file-alt',
+          numero: '4.2',
+          titulo: 'Cualidades del personal de reservas',
+          hash: 't_4_2',
+        },
+        {
+          icono: 'far fa-file-alt',
+          numero: '4.3',
+          titulo: 'Sistemas de reserva',
+          hash: 't_4_3',
+        },
       ],
     },
     {
@@ -114,6 +126,20 @@ export const menuPrincipal = {
       numero: '5',
       titulo: 'Tarifas.',
       desarrolloContenidos: true,
+      subMenu: [
+        {
+          icono: 'far fa-file-alt',
+          numero: '5.1',
+          titulo: 'Tipos',
+          hash: 't_5_1',
+        },
+        {
+          icono: 'far fa-file-alt',
+          numero: '5.2',
+          titulo: 'Planes',
+          hash: 't_5_2',
+        },
+      ],
     },
   ],
   subMenu: [
