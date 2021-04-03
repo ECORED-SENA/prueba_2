@@ -1,8 +1,8 @@
 export const global = {
-  programaFormacion: 'Servicio de Recepción Hotelera.',
-  componenteFormativo: 'Habilidades de comunicación y Técnicas de venta.',
+  programaFormacion: 'Técnico en Servicios de Recepción Hotelera',
+  componenteFormativo: 'Gestión de reservas hoteleras.',
   descripcionCurso:
-    'La industria hotelera tiene como principal objetivo la prestación del servicio al cliente, por ello mediante este componente se hace necesario identificar  las necesidades del mismo, a través de las técnicas de comunicación que se emplean entre el usuario y quien presta los diferentes servicios.',
+    '¡Bienvenido al componente formativo 2 Gestión de Reservas Hoteleras, que ha sido diseñado para que usted conozca los servicios turísticos e interactúe dentro del sistema turístico, identificando los elementos que lo integran  y la importancia que tienen en el desarrollo de la industria hotelera.',
   imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
   fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
 }
@@ -18,7 +18,7 @@ export const menuPrincipal = {
       nombreRuta: 'tema1',
       icono: 'far fa-file-alt',
       numero: '1',
-      titulo: 'Usuarios servicios turísticos.',
+      titulo: 'Servicios turísticos.',
       desarrolloContenidos: true,
       subMenu: [
         {
@@ -69,7 +69,7 @@ export const menuPrincipal = {
       nombreRuta: 'tema2',
       icono: 'far fa-file-alt',
       numero: '2',
-      titulo: 'Servicio al cliente.',
+      titulo: 'Portafolio de servicios.',
       desarrolloContenidos: true,
       subMenu: [
         {
@@ -126,7 +126,7 @@ export const menuPrincipal = {
       nombreRuta: 'tema3',
       icono: 'far fa-file-alt',
       numero: '3',
-      titulo: 'Comunicación.',
+      titulo: 'Reservas.',
       desarrolloContenidos: true,
       subMenu: [
         {
@@ -165,31 +165,18 @@ export const menuPrincipal = {
       nombreRuta: 'tema4',
       icono: 'far fa-file-alt',
       numero: '4',
-      titulo: 'Negociación.',
+      titulo: 'Área de reservas.',
       desarrolloContenidos: true,
     },
     {
       nombreRuta: 'tema5',
       icono: 'far fa-file-alt',
       numero: '5',
-      titulo: 'Cotización.',
-      desarrolloContenidos: true,
-    },
-    {
-      nombreRuta: 'tema6',
-      icono: 'far fa-file-alt',
-      numero: '6',
-      titulo: 'Venta.',
+      titulo: 'Tarifas.',
       desarrolloContenidos: true,
     },
   ],
   subMenu: [
-    // {
-    //   nombreRuta: 'actividad',
-    //   icono: 'far fa-question-circle',
-    //   titulo: 'Actividad didáctica',
-    //   desarrolloContenidos: true,
-    // },
     {
       nombreRuta: 'glosario',
       icono: 'fas fa-sort-alpha-down',

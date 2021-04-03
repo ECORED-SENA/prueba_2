@@ -32,11 +32,13 @@
     background-color: $bg-color
 
 @include define-background("azul-claro", $color-sistema-g)
+@include define-background("color-sistema-g", $color-sistema-g)
 @include define-background("color-curso-g", $color-curso-g)
 @include define-background("color-curso-h", $color-curso-h)
 @include define-background("color-curso-i" , $color-curso-i)
 @include define-background("color-curso-j" , $color-curso-j)
 @include define-background("color-curso-m" , $color-curso-m)
+@include define-background("color-curso-n" , $color-curso-n)
 
 .custom-alert
   .float-image
@@ -134,3 +136,21 @@ blockquote
       &__action-buttons
         bottom: 0
         left: 0
+
+#slider-tema-1
+.slider
+  &__action-buttons
+    a
+      position: absolute
+      display: inline-block
+      top: 45%
+      padding: 3px 10px
+      border-radius: 50%
+      background: white
+      border: 1px solid rgba(58, 97, 240, 0.3)
+
+      &.prev
+        left: 10px
+
+      &.next
+        right: 10px

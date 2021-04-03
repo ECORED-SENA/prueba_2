@@ -23,6 +23,13 @@ export default {
     height: 0,
     rendered: false,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      if (!this.elementos.length) {
+        this.crearElementos()
+      }
+    })
+  },
   methods: {
     crearElementos() {
       this.elementos = this.$slots.default.map((elemento, index) => ({
@@ -77,13 +84,6 @@ export default {
         this.rendered = true
       }, 500)
     },
-  },
-  mounted() {
-    this.$nextTick(() => {
-      if (!this.elementos.length) {
-        this.crearElementos()
-      }
-    })
   },
 }
 </script>
