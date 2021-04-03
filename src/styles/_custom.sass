@@ -8,6 +8,7 @@
       @extend .tarjeta
       background-color: $bg-color
 
+@include define-tarjeta-bg("color-sistema-a" ,$color-sistema-a) // Azul oscuro
 @include define-tarjeta-bg("color-curso-g" ,$color-curso-g) // Amarillo claro
 @include define-tarjeta-bg("color-curso-h" ,$color-curso-h) // Amarillo pollito
 @include define-tarjeta-bg("color-curso-i", $color-curso-i) // Naranja claro
@@ -41,6 +42,8 @@
 @include define-background("color-curso-n" , $color-curso-n)
 
 .custom-alert
+  position: relative
+
   .float-image
     position: absolute
     top: -15px
