@@ -150,15 +150,21 @@ export const menuPrincipal = {
       subMenu: [
         {
           icono: 'far fa-file-alt',
-          numero: '5.1',
+          numero: '6.1',
           titulo: 'Tipos',
-          hash: 't_5_1',
+          hash: 't_6_1',
         },
         {
           icono: 'far fa-file-alt',
-          numero: '5.2',
-          titulo: 'Planes',
-          hash: 't_5_2',
+          numero: '6.2',
+          titulo: 'Etapas',
+          hash: 't_6_2',
+        },
+        {
+          icono: 'far fa-file-alt',
+          numero: '6.3',
+          titulo: 'Técnicas',
+          hash: 't_6_3',
         },
       ],
     },
